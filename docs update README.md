@@ -75,19 +75,20 @@ Aprender o básico sobre contribuição no GitHub.
 ### Instruções (PT/BR) 
 1. Faça um **Fork** deste repositório;
 2. Clone localmente: `git clone https://github.com/SEU_USERNAME/dio-lab-open-source.git`;
-3. no git bash digite   cd-dio-lab-open-source/  em seguida digite enter
-4. Adicione o remote upstream para manter seu repositório local atualizado. Por exemplo: `git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git`;
+3. no git bash digitar  cd dio-lab-open-source/  enter
+4. no git bash digite   cd-dio-lab-open-source/  em seguida digite enter
+5. Adicione o remote upstream para manter seu repositório local atualizado. Por exemplo: `git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git`;
     > Utilize o comando `git pull upstream main` para baixar e mesclar as alterações no seu repositório local com base na branch `main` deste repositório original de onde você fez o fork, ou `git fetch upstream main` para baixar sem mesclar. Veja mais em: [Primeiros Passos com Git e GitHub](https://github.com/digitalinnovationone/dio-curso-git-github/blob/main/materiais-de-apoio/03-primeiros-passos-com-git-e-github.md).
-5. Crie/Referêncie uma nova **branch** e nomeie como `feat/community/SEU_USERNAME`: `git checkout -b feat/community/SEU_USERNAME`; `git checkout -b feat/community/Olivaldomoreira`
+6. Crie/Referêncie uma nova **branch** e nomeie como `feat/community/SEU_USERNAME`: `git checkout -b feat/community/SEU_USERNAME`; `git checkout -b feat/community/Olivaldomoreira`
     > Exemplo: `git checkout -b feat/community/elidianaandrade` `git checkout -b feat/community/Olivaldomoreira`
-6. Dentro da pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community), crie um arquivo em Markdown (extensão `.md`) e nomeie com o mesmo nome do seu usuário no GitHub;
+7. Dentro da pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community), crie um arquivo em Markdown (extensão `.md`) e nomeie com o mesmo nome do seu usuário no GitHub;
     > Exemplo: `elidianaandrade.md` <br>
-7. Desenvolva o seu perfil. Para isso, você pode ver exemplos na pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) e adicionar alguns dos utilitários presentes na pasta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils);
+8. Desenvolva o seu perfil. Para isso, você pode ver exemplos na pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) e adicionar alguns dos utilitários presentes na pasta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils);
     > **Observação:** Use os outros exemplos como inspiração e não cópia.
-8. Adicione suas alterações a "staging area" com o comando `git add community/SEU_USERNAME.md`;
-9. Crie um commit e adicione a mensagem indicando a adição do seu perfil `git commit -m"feat: add SEU_USERNAME profile"`;
-10. Envie as alterações para o seu repositório remoto `git push origin feat/community/SEU_USERNAME`; 
-11. Crie um **Pull Request**.
+9. Adicione suas alterações a "staging area" com o comando `git add community/SEU_USERNAME.md`;
+10. Crie um commit e adicione a mensagem indicando a adição do seu perfil `git commit -m"feat: add SEU_USERNAME profile"`;
+11. Envie as alterações para o seu repositório remoto `git push origin feat/community/SEU_USERNAME`; 
+12. Crie um **Pull Request**.
 
 ### Instructions (EN/US)
 1. **Fork** this repository;
